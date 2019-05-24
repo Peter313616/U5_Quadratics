@@ -1,0 +1,16 @@
+<Window x:Class="U5_Quadratics.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U5_Quadratics"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas x:Name="canvas">
+        <TextBox x:Name="txtAvalue" Text="Enter Value for a: 2" Canvas.Left="10" Canvas.Top="10" />
+        <TextBox x:Name="txtBvalue" Text="Enter Value for b: 4" Canvas.Left="10" Canvas.Top="28"/>
+        <TextBox x:Name="txtCvalue" Text="Enter Value for c: -30" Canvas.Top="46" Canvas.Left="10"/>
+        <Button x:Name="btnQuadratics" Click="btnQuadratics_Click" Content="Find Roots" Canvas.Left="10" Canvas.Top="69"/>
+        <Label x:Name="lblOutput" Canvas.Left="226" Canvas.Top="10"/>
+    </Canvas>
+</Window>
